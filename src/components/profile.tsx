@@ -1,10 +1,16 @@
+import styles from'../styles/components/Profile.module.css';
+
 export function Profile(){
     return(
-        <div>
-            <img src="https://github.com/lyaepso.png" alt='Foto de Eliane na Praia com seu esposo'/>
-            
+        <div className={styles.profileContainer}>
+            <img src="https://github.com/lyaepso.png" alt='Foto de Eliane'/>
+            <div>
                 <strong>Eliane Oliveira</strong>
-                <p>Level 1</p>
+                    <p>
+                        <img src="icons/level.svg" alt="level"/>
+                        Level 1
+                    </p>
+            </div>    
         </div>
         
     )
