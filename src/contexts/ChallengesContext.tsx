@@ -54,7 +54,7 @@ export function ChallengesProvider({children}: ChallengesProviderProps) {
         if (Notification.permission === 'granted') {
             new Notification('Novo desafio'), {
                 body: `Valendo ${challenge.amount}xp!`
-            })
+            }
         }
     }
 
